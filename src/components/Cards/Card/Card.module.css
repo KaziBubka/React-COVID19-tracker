@@ -1,0 +1,13 @@
+.card {
+  margin: 0 2% !important;
+}
+
+/* .card p {
+  display: grid;
+} */
+
+@media only screen and (max-width: 770px) {
+  .card {
+    margin: 2% 0 !important;
+  }
+}
