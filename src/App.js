@@ -90,10 +90,10 @@ function App() {
 
   return (
     <div className={styles.container}>
-      <img className={styles.image} src={coronaImage} alt="COVID-19"/>
-      <Map country={country} countryCoordinates={countryCoordinates} />
+      <img className={styles.image} src={coronaImage} alt="COVID-19"/>      
       <Cards data={data} country={country} />
       <CountryPicker handleCountryChange={handleCountryChange}/>
+      <Map country={country} countryCoordinates={countryCoordinates} />
       <Chart data={data} country={country} />
     </div>
   );
