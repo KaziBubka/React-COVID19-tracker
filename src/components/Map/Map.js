@@ -36,7 +36,7 @@ const Map = ({ country, countryCoordinates }) => {
     return (
         <div className={styles.map}>
             <GoogleMapReact
-                bootstrapURLKeys={{ key: 'AIzaSyDc0YluVikmT5-uShSbG3Gm33HVR48F2sc'}}
+                bootstrapURLKeys={{ key: 'API-KEY'}}
                 center={ center }
                 defaultCenter={ center }
                 zoom={ zoom }
