@@ -91,7 +91,7 @@ function App() {
   return (
     <div className={styles.container}>
       <img className={styles.image} src={coronaImage} alt="COVID-19"/>
-      <Map countryCoordinates={countryCoordinates} />
+      <Map country={country} countryCoordinates={countryCoordinates} />
       <Cards data={data} country={country} />
       <CountryPicker handleCountryChange={handleCountryChange}/>
       <Chart data={data} country={country} />
